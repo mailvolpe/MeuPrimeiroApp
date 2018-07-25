@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.leomoreira.meuprimeiroapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Meu Primeiro App</name>
+    <description>
+        Meu primeiro app
+    </description>
+    <author email="contato@leomoreira.com.br" href="https://leomoreira.com.br">
+        Leo Moreira
+    </author>
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <access origin="*" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>    
+</widget>
